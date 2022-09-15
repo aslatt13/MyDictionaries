@@ -78,8 +78,8 @@ def deal_cards(deck, number):
     '''
     import random
     for count in range(number):
-        card = random.choice(list(deck))
-        print(card)
+        card = random.choice(list(deck)) #assigning deck to a list, dictionary default is the key, only keys become a list from a dictionary
+        print(card) #card key
         value = deck[card]
         hand += value
     
